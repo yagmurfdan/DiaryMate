@@ -1,0 +1,51 @@
+/* emoji.css */
+
+/* Emoji picker özel stilleri */
+.emoji {
+    text-align: center;
+    position: fixed;
+    top: 140px; /* Yukarıdan mesafe ayarlayın */
+    left: 45%; /* Sağa mesafe ayarlayın */
+  }
+  .aabbbb {
+    margin-left: 20%;
+    margin-top: 20%;
+  }
+  .nbr {
+    font-size: 40px;
+    
+  }
+  .emoji h1 {
+    margin: 20px 0; /* Yukarıdan ve alttan boşluk ekleyin */
+  }
+  
+  .emoji button {
+    margin-bottom: 10px; /* Butonun altına boşluk ekleyin */
+  }
+  
+  .emoji .d-block {
+    display: block;
+  }
+  
+  .emoji .d-none {
+    display: none;
+  }
+  
+  .emoji .emoji-mart {
+    width: 200px; /* Emoji picker genişliği */
+    max-height: 300px; /* Emoji picker maksimum yüksekliği */
+  }
+  
+  .emoji .emoji-mart .emoji-mart-category .emoji-mart-emoji {
+    font-size: 1.5em; 
+}
+.btn-primary {
+  
+  background-color: #c3284c;
+}
+.custom-picker {
+  position: absolute;
+  top: 20%;
+  left: 110%;
+  transform: translateX(10px); /* Adjust this value as needed */
+}

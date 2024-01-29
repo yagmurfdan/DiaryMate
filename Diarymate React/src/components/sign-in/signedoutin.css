@@ -1,0 +1,16 @@
+.girisler {
+    margin-left: 2px;
+    gap: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin-right: 100px;
+width: 400px;;
+}
+
+.kullanici {
+    color:blue;
+    background-color: rgb(29, 67, 100);
+    margin-left: 2px;
+    gap: 5px;
+    margin-right: 100px;
+    width:  200px;
+}

@@ -1,0 +1,89 @@
+/* CustomNavbar.css */
+/* Stil dosyası (örnek.css gibi) */
+.container a {
+    background: linear-gradient(180deg,rgb(198, 191, 191) 100%);
+    
+}
+.my-row {
+ margin-left: -8%; 
+}
+
+.logo-text {
+    font-size: 5rem;
+    color: plum; /* Change the color as desired */
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Logo yüksekliği */
+    width: 300px; /* Logo genişliği */
+    border: 2px solid gray; /* Logo kenar rengi */
+    border-radius: 50px; /* Logo yuvarlatılmış kenarları */
+    background: linear-gradient(to right,#515061,#515061); /* Arkaplan gradient renkleri */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif bir gölge efekti */
+  }
+  
+  /* Diğer stillendirmeler */
+  
+      /* Add other desired styling properties */
+    
+  /* Stil dosyası (örnek.css gibi) */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between; /* Yatayda boşluğu paylaştır */
+    align-items: center;
+    height: 150px;
+    width:  1500px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgb(198, 191, 191) 100%);
+    margin-bottom: 50px;
+    
+}
+
+/* Navbar Text */
+.navbar-brand {
+   float:right ;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(51, 46, 46);
+    text-decoration: none;
+    margin: 0 20px;
+    padding-bottom: 5px;
+    transition: color 0.3s;
+    background: linear-gradient(180deg,rgb(198, 191, 191) 100%);
+     
+}
+
+.nav-link:hover {
+    background: linear-gradient(180deg, rgb(198, 191, 191) 100%);
+}
+
+
+  .basket-counter {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    z-index: 1;
+    background: linear-gradient(180deg,rgb(198, 191, 191) 100%);
+  }
+  .tecno-logo {
+    float: right;
+    margin-left: 40px;
+  }
+  
+  

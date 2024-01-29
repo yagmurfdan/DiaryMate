@@ -1,0 +1,50 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: auto;
+  
+  }
+  .diary-container {
+    text-align: left; /* Text'i sola hizala */
+    padding-left: 100px;
+     /* İsteğe bağlı olarak sola boşluk ekleyebilirsiniz */
+  }
+  
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 49%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+    max-width: 40%; /* Fotoğrafın genişliği ile orantılı bir değer */
+    max-height: 400px; /* Fotoğrafın yüksekliği ile orantılı bir değer */
+    width: 100%; /* Genişlik 100% olacak şekilde ayarlanır */
+    height: 100%;
+    border: none;
+    text-align: left;
+    font-family: Lucida Handwriting;
+    color: #000; /* veya color: black; */
+    font-weight: bold;
+    
+  }
+  
+  
+  /* Resmin boyutunu küçültme */
+  img {
+    max-width: 50%; 
+    height: auto;
+    box-shadow: 100 4px 8px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px; 
+  }
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }

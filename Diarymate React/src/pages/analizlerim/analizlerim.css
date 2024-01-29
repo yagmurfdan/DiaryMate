@@ -1,0 +1,39 @@
+
+.diaryy-container {
+  display: flex;
+  overflow-x: auto; /* Yatay kaydırmayı etkinleştir */
+  padding: 10px;
+  height: 760px;
+  flex-wrap: wrap; /* Öğelerin bir sonraki satıra geçmesine izin ver */
+  overflow-x: auto; /* Yatay kaydırmayı etkinleştir */
+  overflow-y: auto; 
+  font-size: medium;
+  gap: 1rem;
+  justify-content: center;
+  font-weight: bold; /* veya normal, 600, 700 gibi değerlerle oynayabilirsiniz */
+  font-family: 'Arial', sans-serif; 
+  
+}
+
+
+  .diaryy-card {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border: 5px solid white;
+    border-radius: 18px;
+    width: 400px;
+    box-shadow:  0 4px 8px rgba(85, 3, 250, 0.1); 
+background-color: rgb(251, 243, 243);
+
+  }
+  .diaryy-username {
+    color: rgb(91, 82, 82);
+    
+  }
+  .diaryy-text{
+    color: rgb(91, 82, 82);
+  }
+  .diaryy-result {
+    color: rgb(91, 82, 82);
+  }

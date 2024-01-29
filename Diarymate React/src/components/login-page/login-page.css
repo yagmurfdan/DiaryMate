@@ -1,0 +1,124 @@
+/* Contact.css */
+body {
+  background-color: rgb(211, 130, 142);
+  overflow: hidden;
+}
+
+.container-v {
+  width: 100%;
+  height: 85vh;
+  margin: 70px -50px;
+  display: flex;
+  border-radius: 10px;
+  background: none; /* fallback for old browsers */
+}
+
+label {
+  
+  color: white;
+  margin-top: 40px; 
+
+  padding-left: 15px; /* Adjust the margin as needed */
+ /* Center the text */
+}
+.magic-formm {
+  margin-left: 500px;
+  width: 220px;
+}
+
+
+p {
+  color: white;
+
+}
+p.aba {
+  margin: 70px 30px;
+  font-size: 50px;
+}
+.brand {
+padding-left: 150px;
+
+}
+img.loggo {
+  margin: 20px 70px;
+  padding-top: 20px;
+}
+.brand {
+  padding-top:  30px;
+  margin-top: 10px;
+}
+
+.inputtt {
+
+  
+  font-size: 16px;
+  width: 100%; /* Adjust the width as needed */
+
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Adjust the border as needed */
+  margin: 30px auto ; /* Center the input box and reduce the top margin */
+margin-bottom: -15px;
+}
+
+input:focus {
+  border-color: #185a9d;
+  outline: none;
+}
+
+.input-feedback {
+  color: red;
+  margin-top: 0.25rem;
+  font-size: 15px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-label {
+  display: inline;
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: -15px; /* Adjust the margin as needed */
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed !important;
+}
+
+
+
+.btn-dark {
+  color: #ffffff;
+  text-shadow: #b5006d;
+  background-color: #c2169d;
+  border-radius: 5px;
+  max-width: 150px;
+  margin: 40px 55px; /* Center the button and add margin */
+  padding: 8px 12px;
+  border-style: none;
+  background-color: rgb(71, 68, 68);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+label[for="email"] {
+  /* Your styles for the email label go here */
+  color: white; /* Example color (replace with your desired styles) */
+  font-size: 25px;
+  margin-left: -20px;  /* Example font size (replace with your desired styles) */
+}
+label[for="password"] {
+
+  color: white;
+  font-size: 25px;
+  
+  margin-left: -20px;
+}
+

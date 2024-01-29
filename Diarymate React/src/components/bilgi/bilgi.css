@@ -1,0 +1,81 @@
+/* bilgi.css */
+
+/* Form genel stil */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right; /* Text'i sola hizala */
+  padding-left: 800px;
+  padding-bottom: 2000px; /* İsteğe bağlı olarak sola boşluk ekleyebilirsiniz */
+}
+
+/* .abb stil */
+.abb {
+  margin-top: -500px;
+ padding-top: -65px;
+
+ 
+}
+label[for="name"], input[type="name"] {
+  text-align: left;
+  margin-right: 25px;
+  width:250px ;
+  height: 50px;
+}
+label[for="date"], input[type="date"] {
+  text-align: left;
+  margin-right: -7px;
+  width:200px ;
+  height: 50px;
+}
+label[for="time"], input[type="time"] {
+  text-align: left;
+  margin-right: -7px;
+  width: 200px;
+  height: 50px;
+  margin-top: -50px;
+}
+/* Input ve label stil */
+label {
+  margin-bottom: 18px;
+  padding: 20px;
+ margin: -30px;
+}
+.abb label {
+  margin: 10px;
+  padding: 20px;
+}
+#name {
+  margin-top: -30px;
+}
+input {
+  padding: 15px;
+  margin-bottom: 16px;
+ 
+  
+}
+
+/* Hata mesajı stil */
+.error-message {
+  color: red;
+  margin-top: 4px;
+}
+
+/* Gönder butonu stil */
+button {
+  padding: 10px 20px;
+  background-color: #c3284c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
